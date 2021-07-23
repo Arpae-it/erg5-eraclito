@@ -4,20 +4,20 @@
 
 publiccodeYmlVersion: '0.2'
 categories:
-  - content-management
+  - data-visualization
 description:
   en:
     features:
-      - Building shorteners with Google sheets
-    genericName: vai_a
-    localisedName: RShortener
+      - Showing, filtering and downloading 60 years of climate informations of Emilia Romagna
+    genericName: erg5-eraclito
+    localisedName: erg5-eraclito
     longDescription: |
-      A simple solution written in R and deployed as a Shiny application to make url shorteners for your organization.
-      The only thing you need to do is to create a Google Sheet and edit it as in the provided example, then deploy the app and run it with your Shiny server.
-      More informations on the steps needed in order to make new shorteners can be found in README.md.
-      Obviously the shortener works better if you deploy the app at an easy (and short) subdomain of your organization.
+      This software, written in R, and deployed as a Shiny application, is a fast and reliable solution to show, filter and download 60 years of climatic informations of Emilia
+      Romagna Region in the Po Valley. The description of the dataset along with the original datasets is available (in Italian only) at: https://dati.arpae.it/dataset/erg5-eraclito
+      The original data sets need to be merged and compressed to fst file format in order to be used. A complete and compressed fst file format is available here: https://drive.google.com/file/d/1isHbS6xNoo2unsMenDcPll1VA82Zacd2/view?usp=sharing
+      For more informations about the fst file format have a look at: https://cran.r-project.org/web/packages/fst/index.html
     shortDescription: |
-     An easy R + Shiny tool to make shorteners for your organization
+     A fast and reliable viewer for climate data
 developmentStatus: stable
 it:
   conforme:
@@ -43,12 +43,12 @@ maintenance:
   contacts:
     - name: Paolo Veronesi
   type: community
-name: Rshortner
+name: erg5-eraclito
 platforms:
   - linux
   - windows
   - mac
-releaseDate: '2021-07-21'
+releaseDate: '2021-07-23'
 softwareType: standalone/web
 softwareVersion: stable
-url: 'https://github.com/Arpae-it/Rshortener'
+url: 'https://github.com/Arpae-it/erg5-eraclito'
