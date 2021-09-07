@@ -19,6 +19,10 @@ description:
     shortDescription: |
      A fast and reliable viewer for climate data
 developmentStatus: stable
+screenshots:
+      - >-
+        screenshot.png
+
 it:
   conforme:
     gdpr: false
