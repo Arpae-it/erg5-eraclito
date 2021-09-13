@@ -18,10 +18,10 @@ description:
       For more informations about the fst file format have a look at: https://cran.r-project.org/web/packages/fst/index.html
     shortDescription: |
      A fast and reliable viewer for climate data
+    screenshots:
+     - screenshot.png
 developmentStatus: stable
-screenshots:
-      - >-
-        screenshot.png
+
 
 it:
   conforme:
